@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sumir {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.topo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topo > #logo {  
+    color: #fff;
+    padding: 3rem 0;
+    font-family: 'Tilt Prism', cursive;
+    /*font-family: 'Braah One', sans-serif;*/
+    font-size: 5rem;
+}
+
+.topo > #logo > i {
+    margin-right: 10px;
+}
+
+.topo > a > .btn-entrar {
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    transition: .2s;
+}
+
+.topo > a > .btn-entrar:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .2s;
+}
+
+section > .viagens {
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+#title {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+section > .viagens > .cards-v {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section > .viagens > .cards-v > .card-v {
+    width: 23%;
+    height: 250px;
+    filter: grayscale(100%);
+    transition: .2s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+section > .viagens > .cards-v > .card-v > p {
+    background-color: #fff;
+    padding: .4rem;
+}
+
+
+section > .viagens > .cards-v > .card-v:hover {
+    filter: grayscale(0%);
+    transition: .2s;
+}
+
+
+
+section > .viagens > .cards-v > .lon {
+    background-image: url(../img/v-londres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .dub {
+    background-image: url(../img/v-dubai.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .rom {
+    background-image: url(../img/v-roma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .par {
+    background-image: url(../img/v-paris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .rio {
+    background-image: url(../img/v-cristo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .tai {
+    background-image: url(../img/v-tailandia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .yor {
+    background-image: url(../img/v-york.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section > .viagens > .cards-v > .ala {
+    background-image: url(../img/v-ala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn-option {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#btn-option > button {
+    background-color: #383838;
+    color: #fff;
+    border: 0;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#btn-option > button:hover {
+    background-color: #ccc;
+    color: #1f1f1f;
+}
+
+.sobre {
+    width: 100%;
+    background-color: #1f1f1f;
+    color: #ccc;
+    padding: 2rem;
+}
+
+.about {
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.contato {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #424242;
+}
+
+.contato > #title {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.contato > form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.contato > form > label {
+    font-size: .8rem;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    color: rgb(206, 0, 0);
+}
+
+.contato > form > input, textarea {
+    border: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato > form > textarea {
+    margin-bottom: 50px;
+}
+
+.contato > form > input , textarea {
+    margin-bottom: 10px;
+    outline: none;
+    padding: .6rem;
+}
+
+button {
+    padding: .4rem;
+    cursor: pointer;
+}
+
+#melhores {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 2.6rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 50%;
+    margin: 50px auto;
+    padding-bottom: 30px;
+}
+
+.rodape {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.rodape > h1 {
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    height: 100px;
+    padding: .5rem;
+    transition: .2s;
+}
+
+.rodape > h1:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: orangered;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+#real {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #ccc;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
